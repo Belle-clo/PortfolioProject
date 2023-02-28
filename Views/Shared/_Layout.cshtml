@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title BSH Lekhuleni-Portfolio</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--header design-->
+    <header>
+        <a href="#home" class="logo">Be<span>ll</span>e.</a>
+
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            @*<li><a href="#portfolio">Portfolio</a></li>*@
+            @*<li><a href="#contact">Contact Me</a></li>*@
+        </ul>
+        <box-icon type='logo' name='linkedin-square' style="font-size: 35px; z-index: 1001; cursor: pointer; margin-left: 25px;">
+            <a href="https://www.linkedin.com/in/belle-lekhuleni-9532b7228/"><i class="fab fa-linkedin"></i></a>
+        </box-icon>
+    </header>
+
+    <!--home section design-->
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+
+
+            </div>
+            <h2> BSH Lekhuleni </h2>
+            <p>A <span>software engineering graduate</span> <br> from Nelson Mandela University</p>
+
+            <div class="button">
+                <a href="~/Files/Siphesihle-Hloniphile-Belle-Lekhuleni.pdf" class="btn">Download CV</a>
+                &nbsp; &nbsp;
+                <a href="~/Files/LEKHULENIBELLE SIPHESIHLE-Networks1_Group3-certificate (2).pdf" class="btn">Download CISCO Certificate</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-text">
+            <h2><span>About</span> Me</h2>
+            <br />
+            <h4>Web Developer</h4>
+            <br />
+            <div class="center">
+                <p>
+                    I am a diligent and determined software engineer graduate with an eager hunger for knowledge
+                    and a keen interest in software programs.I posses good interpersonal and analytical skills.
+                </p>
+
+                <p>
+                    For my third year project(using ASP.NET MVC) I was the project manager for first semester,being a project manager meant I had to   <b>:</b>
+                   
+                    Define the scope,allocating tasks to team members,setting team deadline before final submissions,laying out communication strategies.Supervising each stage of the project
+
+                    Ensuring each task stays on schedule and adheres to deadlines set- tracking all milestones,deliverabes and change requests.
+                    Serving as a liaison to communicate information with regrads to milestones reached and other   pertinent information.
+
+                    Scheduling meetings to monitor each team members on-going progress  with their assigned or chosen tasks each week.
+                    <br />
+
+                </p>
+
+                @*<p>
+
+                        I also volunteered as a safety and security committee member at my residence ensuring that any decisions
+                        are made in good faith and in the best interrest of the residents.Conducting inspections of residence
+                        ensuring emergency doors are closed and used only when there is an emergency.Attend meetings and documenting all completed tasks.
+                        Ensuring residents follow safety protocols.
+
+                    </p>*@
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!--skills section design-->
+    <section class="skills" id="skills">
+        <div class="main-text">
+            <p>My <span>Skills</span></p>
+        </div>
+
+        <div class="skills-content">
+            <div class="box">
+                <img src="~/Picture/Asp.Net MVC.jpg" style="height:100%; width:100%;border-radius:6px;" />
+            </div>
+
+            <div class="box">
+
+                <img src="~/Picture/download.jpg" style="height:100%; width:100%;border-radius:6px;" />
+            </div>
+
+            <div class="box">
+
+
+
+                <img src="~/Picture/CSharp.png" style="height:100%; width:100%;border-radius:6px;" />
+
+
+            </div>
+
+            <div class="box">
+
+                <img src="~/Picture/HTML.png" style="height:100%; width:100%;border-radius:6px;" />
+            </div>
+
+            <div class="box">
+
+                <img src="~/Picture/CSS.png" style="height:100%; width:100%;border-radius:6px;" />
+            </div>
+
+            <div class="box">
+
+                <img src="~/Picture/JS.png" style="height:100%; width:100%;border-radius:6px;" />
+            </div>
+
+            <div class="box">
+
+
+
+                <img src="~/Picture/5848152fcef1014c0b5e4967.png" style="height:100%; width:100%;border-radius:6px;" />
+
+            </div>
+
+            <div class="box">
+
+                <img src="~/Picture/MSSQL.png" style="height:100%; width:100%;border-radius:6px;" />
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--contact section design-->
+
+    @*<section class="contact" id="contact">
+        <div class="contact-text">
+            <h2><span>Contact</span> Me</h2>
+        </div>      
+        <div class="list">
+            <li><a href="#">066 027 6563</a></li>
+            <li><a href="#">bellesiphesihlelekhuleni@gmail.com</a></li>
+        </div>
+
+
+
+    </section>*@
+
+    <!--custom js link-->
+    <script type="text/javascript" src="js/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container body-content">
+        @RenderBody()
+
+        <footer>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
